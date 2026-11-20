@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="cardBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FFF6EE"/>
+      <stop offset="60%" stop-color="#FBEDE8"/>
+      <stop offset="100%" stop-color="#F8E1DC"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4A2E3A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#cardBg)"/>
+
+  <!-- Border Arch Frame -->
+  <rect x="40" y="40" width="1120" height="550" rx="36" fill="none" stroke="#E2BFC0" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="518" rx="28" fill="none" stroke="#8FA67E" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Text Header -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="20" font-weight="600" letter-spacing="8" fill="#4F6B4C">WE ARE GETTING MARRIED</text>
+  
+  <!-- Couple Names -->
+  <text x="600" y="270" text-anchor="middle" font-family="'Great Vibes', 'Cormorant Garamond', cursive" font-size="108" fill="#B5455A">Aayushi &amp; Abhishek</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="340" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="32" fill="#6E4F5B">invite you to share in the joy of their wedding</text>
+
+  <!-- Divider -->
+  <line x1="480" y1="380" x2="570" y2="380" stroke="#E2BFC0" stroke-width="2"/>
+  <circle cx="600" cy="380" r="7" fill="#E58A94"/>
+  <line x1="630" y1="380" x2="720" y2="380" stroke="#E2BFC0" stroke-width="2"/>
+
+  <!-- Date & Venue -->
+  <text x="600" y="440" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="28" font-weight="600" letter-spacing="6" fill="#4A2E3A">04 · 12 · 2026</text>
+  <text x="600" y="490" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#4F6B4C">FRIDAY · DHABA SUTARA, KURSELA</text>
+
+  <!-- Hashtag -->
+  <text x="600" y="535" text-anchor="middle" font-family="'Josefin Sans', sans-serif" font-size="15" font-weight="600" letter-spacing="3" fill="#6A3A5A">#AayushiWedsAbhishek</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF6EE"/>
+      <stop offset="100%" stop-color="#FBEDE8"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bg)" stroke="#E58A94" stroke-width="2"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#8FA67E" stroke-width="1" stroke-dasharray="2 3"/>
+  <!-- Decorative floral buds -->
+  <circle cx="32" cy="8" r="3" fill="#B5455A"/>
+  <circle cx="32" cy="56" r="3" fill="#B5455A"/>
+  <text x="32" y="39" font-family="'Great Vibes', 'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#B5455A" text-anchor="middle">A&amp;A</text>
+</svg>
